@@ -1,0 +1,8 @@
+admin:
+  passwd: $7$C6..../....8GmWqwSSMrpklUQklRGdEXivCVt.BrMM1AXvRNQbaAA$KAHyJZJCPAgV6PjlW47lZNLJG4Pn/QAOxRQUhkRMlC0
+  role: admin
+  iris: all
+guest:
+  passwd: $7$C6..../....PPHdSkE6tkDjHy.Wh2U0Bpj4a9RXbEQNSaE4MKqKLeD$pyD3bXGQWSG8SOGtDhqU.fPioqIWmtEmX1CJPEDbl0/
+  role: guest
+  iris: setosa
