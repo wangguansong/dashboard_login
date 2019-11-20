@@ -124,7 +124,7 @@ server <- function(input, output, session) {
     } else if (input$main_passwd1 == input$main_passwd2) {
       USER$user$passwd <- password_store(input$main_passwd1)
       temp_list <- read_yaml("user_config.yaml")
-      temp_list[[USER$user$name]]$passwd <- USER$user$passwd
+      temp_list[[USER$username]]$passwd <- USER$user$passwd
       write_yaml(temp_list, "user_config.yaml")
       showNotification("Password Updated", type = "message")
     }
