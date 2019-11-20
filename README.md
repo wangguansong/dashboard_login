@@ -10,3 +10,5 @@ The new functionalities are following:
 - Add background image of the login page.
 
 Create a user_config.yaml file from the user_config_template.yaml file.
+
+See the [demo](http://guansong.wang/shiny/butters/dashboard_login/).
